@@ -4,6 +4,12 @@
 
 > Most AI PM tools generate documents. This one generates decisions.
 
+> [!IMPORTANT]
+> **Work in progress.** This repository currently contains product and engineering
+> specifications. The runnable app, agent pipeline, dependencies, and Docker
+> setup described below have not shipped yet. Treat this README as the target
+> product and build plan.
+
 [![Open Source](https://img.shields.io/badge/open%20source-MIT-teal.svg)](#license)
 [![Stack](https://img.shields.io/badge/stack-LangGraph%20%2B%20any%20LLM-purple.svg)](https://langgraph.com)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://python.org)
@@ -41,7 +47,7 @@ Agentic PM flips the model:
 
 ---
 
-## How it works
+## Planned workflow
 
 ```
 Your idea (one sentence)
@@ -97,7 +103,7 @@ Plus: your **North Star metric** and the **first assumption to invalidate**.
 
 ---
 
-## Quick start
+## Planned quick start (not available yet)
 
 ```bash
 # 1. Clone
@@ -137,7 +143,7 @@ docker run -p 8501:8501 --env-file .env agentic-pm
 
 ---
 
-## Tech stack
+## Planned tech stack
 
 ```
 LangGraph 1.1.8      — agent orchestration
@@ -152,7 +158,7 @@ Docker               — one-command local run
 
 ---
 
-## Project structure
+## Planned project structure
 
 ```
 Agentic-Product-Manager/
@@ -227,7 +233,7 @@ The code is forkable. The prompts are improveable. The architecture is designed 
 
 **KC** — PM at Nielsen managing ~$20M ARR across AI product lines. Previously co-founded TinTrin (10K downloads, 2K DAU in 12 days, zero ad spend). Built this because it's the tool I needed when I was building from scratch.
 
-[GitHub](https://github.com/MrForward) · [LinkedIn](https://linkedin.com/in/chaitanya-athukuri/) · [Portfolio](https://chaitanyaa.lol)
+[GitHub](https://github.com/MrForward) · [LinkedIn](https://linkedin.com/in/chaitanya-athukuri/) · [Portfolio](https://chaitanya.lol)
 
 ---
 
